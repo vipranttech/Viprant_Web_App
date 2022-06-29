@@ -28,7 +28,7 @@ interface Product {
     inventoryStatus?: string;
 }
 
-function DemoApp() {
+function DataTableDemo() {
     let emptyProduct: Product = {
         id: '',
         name: '',
@@ -57,7 +57,7 @@ function DemoApp() {
     }, []);
 
     const formatCurrency = (value: number) => {
-        return value.toLocaleString('en-US', { style: 'currency', currency: 'USD' });
+        return value.toLocaleString('en-US', { style: 'currency', currency: 'IND' });
     }
 
     const openNew = () => {
@@ -341,4 +341,4 @@ function DemoApp() {
     );
 }
 
-export default DemoApp;
+export default DataTableDemo;

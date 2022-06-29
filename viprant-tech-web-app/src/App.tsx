@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import DemoApp from './components/Dialog/DemoApp';
+import DataTableDemo from './components/DataTable/DataTableDemo';
 
 function App() {
   return (
@@ -19,7 +19,7 @@ function App() {
           Learn React
         </a>
       </header> */}
-      <DemoApp/>
+      <DataTableDemo/>
     </div>
   );
 }
