@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef, ChangeEvent, FormEvent } from 'reac
 import { classNames } from 'primereact/utils';
 import { DataTable } from 'primereact/datatable';
 import { Column } from 'primereact/column';
-import { getProducts } from '../../service/ProductService'
+import { getProducts } from '../../services/ProductService'
 import { Toast } from 'primereact/toast';
 import { Button } from 'primereact/button';
 import { Rating } from 'primereact/rating';
