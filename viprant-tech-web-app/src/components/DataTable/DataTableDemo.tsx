@@ -224,7 +224,7 @@ function DataTableDemo() {
     }
 
     const header = (
-        <div className="flex flex-column md:flex-row md:align-items-center justify-content-between">
+        <div className="flex md:flex-row md:align-items-center justify-content-between">
             <span className="p-input-icon-left w-full md:w-auto">
                 <i className="pi pi-search" />
                 <InputText type="search" onInput={(e: FormEvent<HTMLInputElement>) => setGlobalFilter(e.currentTarget.value)} placeholder="Search..." className="w-full lg:w-auto" />
@@ -259,7 +259,7 @@ function DataTableDemo() {
 
     return (
         <>
-            <Container>
+            <Container className="mt-8">
 
 
                 <div className="datatable-crud-demo surface-card p-4 border-round shadow-2">
